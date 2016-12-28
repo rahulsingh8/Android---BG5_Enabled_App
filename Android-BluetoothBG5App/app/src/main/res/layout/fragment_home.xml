@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="55dp"
+    tools:context="com.example.rahul.patient.HomeFragment">
+
+    <TextView
+        android:text="mmol/L"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/unitLabel"
+        android:textSize="30dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp"
+        android:layout_alignBaseline="@+id/lastReading"
+        android:layout_alignBottom="@+id/lastReading"
+        android:layout_alignLeft="@+id/lastReadingLabel"
+        android:layout_alignStart="@+id/lastReadingLabel" />
+
+    <TextView
+        android:text="-.-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastReading"
+        android:textSize="50dp"
+        android:layout_below="@+id/lastReadingLabel"
+        android:layout_alignRight="@+id/lastReadingLabel"
+        android:layout_alignEnd="@+id/lastReadingLabel"
+        android:layout_marginRight="50dp"
+        android:layout_marginEnd="50dp" />
+
+    <TextView
+        android:text="Last Reading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:id="@+id/lastReadingLabel"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/ic_add_black_24dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="22dp"
+        android:id="@+id/floatingActionButton"
+        app:backgroundTint="?attr/actionModeSplitBackground"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>
+

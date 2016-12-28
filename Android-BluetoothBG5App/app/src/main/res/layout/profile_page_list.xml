@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="27dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:height="50dp"
+            android:text="Name : "
+            android:id="@+id/caretaker_name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:height="50dp"
+            android:text="Caretaker FName"
+            android:id="@+id/caretaker_FName"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:height="50dp"
+            android:text="Caretaker LName"
+            android:id="@+id/caretaker_LName"/>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="27dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:height="50dp"
+            android:text="Email : "
+            android:id="@+id/caretaker_email"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:height="50dp"
+            android:text="Caretaker Email"
+            android:id="@+id/caretaker_emailAdd"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="27dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:height="50dp"
+            android:text="User Type : "
+            android:id="@+id/user"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:height="50dp"
+            android:text="User Type"
+            android:id="@+id/user_type"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="27dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:height="50dp"
+            android:text="Age : "
+            android:id="@+id/c_age"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:height="50dp"
+            android:text="Caretaker Age"
+            android:id="@+id/caretaker_age"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="27dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:height="50dp"
+            android:text="Date of birth : "
+            android:id="@+id/c_DOB"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:height="50dp"
+            android:text="Caretaker date of birth"
+            android:id="@+id/caretaker_DOB"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="27dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:height="50dp"
+            android:text="Number of patients : "
+            android:id="@+id/num_of_patients"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:height="50dp"
+            android:text="Number  of patients"
+            android:id="@+id/number_of_patients"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="27dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:height="50dp"
+            android:text="Doctor Name : "
+            android:id="@+id/textView3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:height="50dp"
+            android:text="Dr.Smit"
+            android:id="@+id/textView5"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/listdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:height="50dp"
+                android:text="Date"/>
+
+
+    <TextView
+        android:id="@+id/listTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:paddingBottom="10dp"
+        android:text="Time"
+        android:height="50dp" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BSL"
+            android:id="@+id/listbsl"
+            android:textColor="@android:color/black"
+            android:paddingTop="10dp"
+            android:height="50dp"
+            android:layout_marginLeft="30dp"
+            android:paddingBottom="10dp"
+            android:layout_alignBottom="@+id/listdate"
+            android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arrow"
+        android:id="@+id/listarrow"
+        android:layout_marginLeft="30dp"
+        android:paddingTop="10dp"
+        android:layout_marginRight="20dp"
+        android:paddingBottom="10dp"
+        android:height="50dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_taken" />
+
+</LinearLayout>
+

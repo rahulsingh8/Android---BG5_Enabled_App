@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_bg5"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.rahul.patient.BG5"
+    android:background="@color/cardview_light_background">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/toolbar4"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_batteryicon1"
+        android:id="@+id/imageView6"
+        android:layout_weight="1"
+        android:layout_alignBottom="@+id/toolbar4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Battery"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_toRightOf="@+id/imageView6"
+        android:layout_toEndOf="@+id/imageView6"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/cardview_light_background"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_blood"
+        android:id="@+id/imageView7"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_alignBottom="@+id/toolbar4"
+        android:layout_toRightOf="@+id/tv_Battery"
+        android:layout_toEndOf="@+id/tv_Battery"/>
+
+    <TextView
+        android:id="@+id/tv_msgReturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_Battery"
+        android:layout_alignBottom="@+id/tv_Battery"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/imageView7"
+        android:layout_toEndOf="@+id/imageView7"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:text="TextView"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/turnondevicecut"
+        android:id="@+id/imageView"/>
+
+</RelativeLayout>

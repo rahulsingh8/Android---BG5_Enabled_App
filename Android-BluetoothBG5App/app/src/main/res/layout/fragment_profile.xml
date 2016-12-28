@@ -1,0 +1,47 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="55dp"
+    tools:context="com.example.rahul.patient.ProfileFragment"
+    android:id="@+id/ProfileViewFragment">
+
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/materialimage"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:onClick="onClickChange"/>
+
+    <!--<com.github.mikephil.charting.charts.LineChart
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/linechart"/>-->
+
+
+    <ListView
+        android:id="@+id/profilelist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#9E9E9E"
+        android:dividerHeight="1dp"
+        android:scrollbars="none"/>
+
+
+    <TextView
+        android:id="@+id/stickyViewProfile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/MaterialColor"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Heading1"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</FrameLayout>
